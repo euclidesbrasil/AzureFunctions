@@ -76,7 +76,7 @@ curl -X POST -H "Content-Type: application/json" \
      http://localhost:7071/runtime/webhooks/durabletask/instances/{instanceId}/rewind
 ```
 
-### 🔹 **Enviar Evento Externo para Continuar o Fluxo**
+### 🔹 **Enviar Evento Externo para Continuar o Fluxo (Ex: PaymentApproved)**
 ```sh
 curl -X POST -H "Content-Type: application/json" \
      -d "true" \
