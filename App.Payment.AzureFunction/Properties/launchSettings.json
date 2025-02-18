@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "App.Payment.AzureFunction": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7147",
+      "launchBrowser": false
+    }
+  }
+}
